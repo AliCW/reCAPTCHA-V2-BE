@@ -1,12 +1,12 @@
 # reCAPTCHA-V2-BE
 
-The backend is built using a very simple django setup, see setup instructions below
+The backend is built using a very simple django setup to facilitate reCAPTCHA V2 checks with google. This program serves the very basic frontend (https://github.com/AliCW/reCAPTCHAv2-test-example).
 
 ## Setup...
 
 Install python:
 
-    sudo apit install python3
+    sudo apt install python3
 
 Create a virtual environment for your python backend to run in:
 
@@ -20,6 +20,8 @@ Install NPM packages:
 
     npm install
 
-Configure .env to hide your DJANGO SECRET_KEY
+Create a .env file in the api root directory & add your DJANGO SECRET_KEY
 
+To run the server, navigate to the api root directory and type the below command to listen for post requests
 
+    python3 manage.py runserver
