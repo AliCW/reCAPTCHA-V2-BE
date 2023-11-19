@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'recaptchV2Test.wsgi.application'
 #CSRF_COOKIE_SECURE = False
 #CSRF_COOKIE_HTTPONLY = False
 #SESSION_COOKIE_SECURE = False
-CSRF_TRUSTED_ORIGINS = ['http://localhost:3000',]
+CSRF_TRUSTED_ORIGINS = ['http://localhost:3000', 'http://192.168.1.174:3000']
 
 REST_FRAMEWORK = {
     'DEFAULT_PARSER_CLASSES': [
