@@ -22,6 +22,6 @@ Install NPM packages:
 
 Create a .env file in the api root directory & add your DJANGO SECRET_KEY
 
-To run the server, navigate to the api root directory and type the below command to listen for post requests
+To run the server, navigate to the api/recaptchV2Test directory and type the below command to listen for post requests
 
     python3 manage.py runserver

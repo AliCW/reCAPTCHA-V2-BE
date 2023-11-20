@@ -3,3 +3,4 @@ db.sqlite3
 node_modules
 recaptchaV2Test/migrations
 recaptchaV2Test/__pycache__
+recaptchV2Test/recaptchV2Test/__pycache__

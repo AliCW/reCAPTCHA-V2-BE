@@ -59,7 +59,7 @@ ROOT_URLCONF = 'recaptchV2Test.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['recaptchaV2Test/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
