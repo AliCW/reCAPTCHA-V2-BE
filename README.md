@@ -16,10 +16,6 @@ Clone the repo into virtual environment directory you just made:
 
     git clone https://github.com/AliCW/reCAPTCHA-V2-BE.git
 
-Install NPM packages:
-
-    npm install
-
 Create a .env file in the api root directory & add your DJANGO SECRET_KEY
 
 To run the server, navigate to the api/recaptchV2Test directory and type the below command to listen for post requests
